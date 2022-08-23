@@ -1,0 +1,215 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Design */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 62px;
+}
+
+.nav-brand, .nav-content{
+    width: 50%;
+}
+
+.nav-content>a{
+    background-color: aquamarine;
+    padding: 12px 72px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid black;
+    left: 65%;
+    text-decoration: none;
+}
+
+/* Banner Design */
+.banner{
+    background: url("../images/bg-hero-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.banner-item{
+    width: 50%;
+}
+
+.banner-item>.content>img{
+    width: 100%;
+}
+
+.content{
+    padding: 220px 100px 100px 100px;
+}
+
+.banner-item>.content>h1{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.banner-item>.content>p{
+    font-size: 1.74em;
+    margin-top: -22px;
+}
+
+.banner-item>.content>div{
+    padding: 52px 0 0 0;
+}
+
+.banner-item>.content>div>a{
+    padding: 22px 100px;
+    background-color: rgb(251, 108, 132);
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: white;
+}
+
+/* Grow Together Design */
+.st-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.st-item{
+    width: 50%;
+}
+
+.st-item>.st-content>img{
+    width: 100%;
+}
+
+.st-parent>.st-item>.st-content{
+    padding: 220px 100px 100px 100px;
+}
+
+.st-parent>.st-item>.st-content>h2{
+    font-size: 4em;
+    text-transform: capitalize;
+}
+
+.st-parent>.st-item>.st-content>p{
+    font-size: 1.8em;
+}
+
+
+/* Your Users Design */
+.st3-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.st3-item{
+    width: 50%;
+}
+
+.st3-item>.st3-content>img{
+    width: 100%;
+}
+
+.st3-parent>.st3-item>.st3-content{
+    padding: 220px 100px 100px 100px;
+}
+
+.st3-parent>.st3-item>.st3-content>h2{
+    font-size: 4em;
+    text-transform: capitalize;
+}
+
+.st3-parent>.st3-item>.st3-content>p{
+    font-size: 1.8em;
+}
+
+/* Footer Design */
+.footer-parent{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.footer-item{
+    width: 25%;
+}
+
+.footer-item>.footer-content{
+    padding:100px 50px;
+}
+
+.footer-item>.footer-content>ul{
+    list-style: none;
+}
+
+.footer-item>.footer-content>ul>li{
+    margin-top: 12px;
+}
+
+.footer-item-last{
+    width: 100%;
+}
+
+.footer-item-last>p{
+    margin-left: 80%;
+}
+
+.footer-item>.footer-content>.social-item{
+    list-style: none;
+}
+
+.footer-item>.footer-content>.social-item>.social-icon{
+    float: left;
+}
+
+.footer-item>.footer-content>.social-item>.social-icon, .socail-link{
+    margin-left: 12px;
+}
+
+.footer-content>div{
+    margin-top: 22px;
+}
+
+footer{
+    background-color: #7507e4fd;
+    position: relative;
+    color: white;
+}
+
+.ready-container{
+    position: absolute;
+    top: -30%;
+    border: 1px solid black;
+    background-color: white;
+    left: 30%;
+    padding:50px 80px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.ready-container>.ready-content>h2{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+.get-started{
+    padding: 22px 100px;
+    background-color: rgb(251, 108, 132);
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: white;
+}
